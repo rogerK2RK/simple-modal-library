@@ -1,6 +1,6 @@
 {
   "name": "simple-modal-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Roger Retita <roger.retita@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
