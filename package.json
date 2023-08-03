@@ -42,7 +42,7 @@
   "files": [ "dist", "README.md" ],  
   "repository": {    
     "type": "git",    
-    "url": ""  
+    "url": "https://github.com/rogerK2RK/simple-modal-library.git" 
   }
 }
 
