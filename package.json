@@ -34,16 +34,20 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
-  "main": "src/lib/index.js",  
-  "module": "src/lib/index.js",  
-  "files": [ "src", "README.md" ],  
-  "repository": {    
-    "type": "git",    
-    "url": "https://github.com/rogerK2RK/simple-modal-library.git" 
+  "main": "src/lib/index.js",
+  "module": "src/lib/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerK2RK/simple-modal-library.git"
   }
 }
-
