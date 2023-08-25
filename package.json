@@ -1,6 +1,6 @@
 {
   "name": "simple-modal-library",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Roger Retita <roger.retita@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "NODE_ENV=development babel src -d lib",
+    "build-prod": "NODE_ENV=production babel src -d lib",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -33,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
     "babel-cli": "^6.26.0",
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.2",
