@@ -1,6 +1,6 @@
 {
   "name": "simple-modal-library",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Roger Retita <roger.retita@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -10,8 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "NODE_ENV=development babel src -d lib",
-    "build-prod": "NODE_ENV=production babel src -d lib",
+    "build": "NODE_ENV=development babel src -d src",
+    "build-prod": "NODE_ENV=production babel src -d src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,8 +42,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
-  "main": "src/lib/index.js",
-  "module": "src/lib/index.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "files": [
     "src",
     "README.md"
